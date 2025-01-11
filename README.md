@@ -1,1 +1,1 @@
-https://mern-booking-app-vo16.onrender.com
+https://mernhotelbooking-pph0.onrender.com
