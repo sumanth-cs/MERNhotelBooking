@@ -3,7 +3,7 @@
 # MERN Hotel Booking App 
 A full-stack hotel booking application built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js) and using Typescript. The app provides a seamless experience for users to browse, search, and book hotels.
 
-🚀 **Live Demo**: [MERN Hotel Booking App](https://mernhotelbooking-pph0.onrender.com)
+🚀 **Live Demo**: https://mernhotelbooking-pph0.onrender.com
 
 ---
 
