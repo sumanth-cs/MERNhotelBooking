@@ -22,13 +22,18 @@ mongoose
   .then(() => console.log("MongoDB connected to db: "))
   .catch((error) => console.error("MongoDB connection error:", error));
 
+const allowedOrigins = [
+  process.env.FRONTEND_URL || "https://mernhotelbooking-pph0.onrender.com", 
+  "http://localhost:5173", 
+];
+
 const app = express();
 app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL,
+    origin: allowedOrigins,
     credentials: true,
   })
 );

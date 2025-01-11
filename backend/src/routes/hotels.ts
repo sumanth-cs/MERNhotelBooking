@@ -61,9 +61,9 @@ router.get("/", async (req: Request, res: Response) => {
     const hotels = await Hotel.find().sort("-lastupdated");
     res.json(hotels);
   } catch (error) {
-    res.status(500).json({message:"Error fetching hotels"})
+    res.status(500).json({ message: "Error fetching hotels" });
   }
-})
+});
 
 router.get(
   "/:id",
